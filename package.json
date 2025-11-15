@@ -1,17 +1,12 @@
 {
-  "name": "gamerofficial-gojo-saturo-bot",
+  "name": "gamerofficial",
   "version": "1.0.0",
-  "description": "Discord bot + express server for Render keep-alive",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.15.3",
-    "express": "^4.18.2",
+    "discord.js": "^14.14.1",
     "dotenv": "^16.4.5"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
