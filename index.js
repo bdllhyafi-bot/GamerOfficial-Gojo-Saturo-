@@ -8,7 +8,6 @@ const {
 
 const prefix = "!"; 
 const LOG_CHANNEL = process.env.LOG_CHANNEL;
-
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
