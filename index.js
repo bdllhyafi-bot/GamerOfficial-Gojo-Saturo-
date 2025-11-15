@@ -7,7 +7,7 @@ const {
 } = require("discord.js");
 
 const prefix = "!"; 
-const LOG_CHANNEL = "1439281566596599949"; 
+const LOG_CHANNEL = process.env.LOG_CHANNEL;
 
 const client = new Client({
     intents: [
